@@ -2,10 +2,28 @@
 ## IoT-Based Intelligent Home Security Solution
 
 ### Abstract
-The Smart Home Surveillance System (SHSS) represents a Level 4 IoT architecture implementation, characterized by its advanced data processing capabilities and complex system integration. This sophisticated system combines edge computing with cloud services to deliver real-time surveillance and security features. By leveraging computer vision algorithms, sensor fusion, and mobile connectivity, SHSS provides an intelligent solution that goes beyond traditional surveillance systems. The system processes data at both edge and cloud levels, enabling quick response times for critical security events while maintaining comprehensive data analysis capabilities. This project demonstrates the practical application of IoT technologies in addressing modern home security challenges, showcasing both real-time monitoring capabilities and intelligent event detection through a user-centric design.
+Smart Home Surveillance System (SHSS) is an IoT-based intelligent home security solution developed in such a way that the safety of the residence is improved with advanced technology. Among all, it is designed to provide a user-friendly, efficient platform for real-time monitoring, detection of security events, and data analysis in detail.
+
+The system adopts all the latest technologies, from Level 4 IoT architecture and edge computing to cloud services, for effective processing and smooth integration of the entire system. It operates on both the edge and cloud levels to respond swiftly to critical security events while preserving the capability for in-depth data analysis. By fueling computer vision algorithms with sensor fusion and mobile connectivity, SHSS tackles intricate surveillance tasks with high accuracy and speed.
+
+Some of the key features of the system include a user-centric design, secure user authentication, real-time event detection, mobile connectivity for remote access, and integration with cloud platforms for data storage and analysis. Additionally, the system provides intelligent decision-making through advanced event detection algorithms, with timely and accurate alerts provided to users.
+
+The development has ensured scalability, reliability, and security of data by using industry best practices and IoT technologies. Thanks to this iterative and collaborative approach, during the project, feedback from potential users has been collected that contributed to refining the system functionalities, improving its usability.
+
+In summary, the SHSS will revolutionize home security by providing an intelligent, efficient, and automated platform. The system sets new standards in residential surveillance by taking into consideration modern home security challenges, improving safety, and informing data-driven decisions.
 
 ### Acknowledgment
-We extend our sincere gratitude to our project supervisors and mentors whose expertise and guidance were invaluable throughout the development process. Special appreciation goes to the open-source community, particularly the OpenCV and Firebase development teams, whose tools and documentation were crucial to our implementation. We also thank our beta testers who provided essential feedback during the system's testing phase, helping us refine the user experience and system reliability.
+We would like to express our heartfelt gratitude and appreciation to all those who have supported and contributed to the successful completion of our project on the Smart Home Surveillance System (SHSS).
+
+First, we are deeply thankful to our project supervisors and mentors for their invaluable guidance, expertise, and unwavering support throughout the development process. Their insightful feedback and suggestions have been instrumental in shaping the project and ensuring its quality and reliability.
+
+We would also like to extend special thanks to the open-source community, particularly the OpenCV and Firebase development teams, whose tools and comprehensive documentation were crucial to the successful implementation of key features in this project.
+
+Furthermore, we are immensely grateful to the beta testers who participated in the system’s testing phase. Their constructive feedback and observations played a significant role in refining the user experience and enhancing the overall system performance.
+
+Lastly, we are thankful to our families and friends for their constant encouragement and support during this journey. Their belief in our abilities has been a source of motivation and inspiration throughout the project.
+
+In conclusion, this project would not have been possible without the contributions, guidance, and support of all these individuals and organizations. We extend our sincere gratitude to every one of them for their invaluable roles in the successful realization of this project.
 
 ### Table of Contents
 - [Abstract](#abstract)
