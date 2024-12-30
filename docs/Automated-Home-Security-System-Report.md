@@ -155,7 +155,7 @@ The SHSS implements a sophisticated multi-tier architecture that aligns with Lev
    - Cloud-based advanced analytics
    - Machine learning model deployment
 
-   The Processing Layer handles the complex task of analyzing and interpreting data from multiple sources. Edge computing nodes perform real-time video analysis using OpenCV (OpenCV, 2024), capable of processing up to 30 frames per second for motion detection and basic object recognition. The distributed processing system allows multiple Raspberry Pi units to share the computational load, with each device capable of handling up to 1080p video streams while maintaining real-time performance. Cloud-based analytics, powered by Firebase and custom machine learning models, provide advanced features such as facial recognition and behavior analysis. The machine learning models, trained on extensive datasets, are optimized for edge deployment while maintaining high accuracy in various lighting conditions.
+   Analyzing and Processing is performed on edge computing nodes using OpenCV (OpenCV, 2024). The edge computing nodes are Raspberry Pi units, which are capable of handling up to relatively less compute-intensive tasks, such as low resolution image processing and real-time video streaming. Cloud-based analytics, powered by Firebase and custom machine learning models, provide advanced features such as facial recognition and image enhancement. The machine learning models such as lightweight OpenCV cascade classifiers and histogram equalization are deployed on the cloud. The user can access the cloud through the mobile application, where saved images can be viewed.
 
 4. **Application Layer**
    - Mobile application with intuitive UI/UX
