@@ -1,6 +1,6 @@
-# Smart Home Surveillance System (SHSS)
+# Smart Home Security System (SHSS)
 
-This project builds upon the "Enhanced Security Vision" project, transforming it into a full-fledged IoT-based smart home surveillance system. It leverages computer vision, cloud computing, and IoT technologies to provide comprehensive home security with real-time monitoring, intelligent alerts, and remote access.
+This project builds upon the "Enhanced Security Vision" project, transforming it into a full-fledged IoT-based smart home security system. It leverages computer vision, cloud computing, and IoT technologies to provide comprehensive home security with real-time monitoring, intelligent alerts, and remote access.
 
 ## Project Goals
 
@@ -56,4 +56,4 @@ The system consists of the following components:
 *   AI-powered event analysis for more intelligent threat detection.
 *   Local video recording for redundancy.
 
-This project aims to provide a robust and intelligent home surveillance solution, leveraging the power of computer vision and IoT technologies.
+This project aims to provide a robust and intelligent home security solution, leveraging the power of computer vision and IoT technologies.
