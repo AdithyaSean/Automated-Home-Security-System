@@ -6,7 +6,7 @@
 - COHNDSE232F-000 – T T LIYANAARACHCHI
 
 ### Abstract
-This is an Automated Home Security System (SHSS) utilizing advanced Image processing and Machine Learning algorithms while using a level 4 IoT architecture, developed for minimal home security needs (Wang & Wang, 2023). This sophisticated system combines edge computing with cloud services to deliver real-time surveillance and security features. By leveraging computer vision algorithms (Szeliski, 2023), sensor fusion, and mobile connectivity, SHSS provides an intelligent solution that goes beyond traditional security systems. The system processes data at both edge and cloud levels, enabling quick response times for critical security events while maintaining comprehensive data analysis capabilities. This project demonstrates the practical application of IoT technologies in addressing modern home security challenges, showcasing both real-time monitoring capabilities and intelligent event detection through a user-centric design.
+This is an Automated Home Security System (SHSS) utilizing advanced Image processing and Machine Learning algorithms while using a level 4 IoT architecture, developed for minimal home security needs. This sophisticated system combines edge computing with cloud services to deliver real-time surveillance and security features. By leveraging computer vision algorithms, sensor fusion, and mobile connectivity, SHSS provides an intelligent solution that goes beyond traditional security systems. The system processes data at both edge and cloud levels, enabling quick response times for critical security events while maintaining comprehensive data analysis capabilities. This project demonstrates the practical application of IoT technologies in addressing modern home security challenges, showcasing both real-time monitoring capabilities and intelligent event detection through a user-centric design.
 
 ### Acknowledgment
 We would like to extend our gratitude to the following individuals and communities for their invaluable contributions to this project:
@@ -55,10 +55,10 @@ We would like to extend our gratitude to the following individuals and communiti
   - [View Figure](#gantt-chart)
 
 ### Introduction
-In an era where smart home technology is rapidly evolving, the need for sophisticated security systems has become paramount (Institute of Electrical and Electronics Engineers [IEEE], 2023). The Smart Home security System (SHSS) emerges as a comprehensive solution that bridges the gap between traditional security and modern IoT capabilities. This project implements a Level 4 IoT architecture, chosen specifically for its ability to handle complex data processing and system integration requirements (Wang & Wang, 2023).
+In this rapidly evolving era to ensure our safety and privacy advanced security systems are crutial (Humayun et al., 2024). Given advancment of the IoT systems it has significantly increased to gap between traditional security systems and advanced security systems. This project implements a Level 4 IoT architecture. We have chosen this architecture specifically for its ability to handle complex data processing and system integration requirements.
 
 #### IoT Architecture Level Justification
-SHSS operates at Level 4 of the IoT architecture hierarchy because it incorporates advanced data processing capabilities and complex system integration (IEEE, 2023). The system utilizes sophisticated computer vision algorithms (Bradski & Kaehler, 2023) and implements secure data handling protocols (Firebase, 2023) to ensure robust system performance.
+SHSS operates at Level 4 of the IoT architecture hierarchy because it incorporates advanced data processing capabilities and complex system integration (IEEE, 2023). The system utilizes sophisticated computer vision algorithms (OpenCV, 2024) and implements secure data handling protocols (Firebase, 2024) to ensure robust system performance.
 
 This level of architecture enables the system to:
 
@@ -155,7 +155,7 @@ The SHSS implements a sophisticated multi-tier architecture that aligns with Lev
    - Cloud-based advanced analytics
    - Machine learning model deployment
 
-   The Processing Layer handles the complex task of analyzing and interpreting data from multiple sources. Edge computing nodes perform real-time video analysis using OpenCV (Bradski & Kaehler, 2023), capable of processing up to 30 frames per second for motion detection and basic object recognition. The distributed processing system allows multiple Raspberry Pi units to share the computational load, with each device capable of handling up to 1080p video streams while maintaining real-time performance. Cloud-based analytics, powered by Firebase and custom machine learning models, provide advanced features such as facial recognition and behavior analysis. The machine learning models, trained on extensive datasets, are optimized for edge deployment while maintaining high accuracy in various lighting conditions.
+   The Processing Layer handles the complex task of analyzing and interpreting data from multiple sources. Edge computing nodes perform real-time video analysis using OpenCV (OpenCV, 2024), capable of processing up to 30 frames per second for motion detection and basic object recognition. The distributed processing system allows multiple Raspberry Pi units to share the computational load, with each device capable of handling up to 1080p video streams while maintaining real-time performance. Cloud-based analytics, powered by Firebase and custom machine learning models, provide advanced features such as facial recognition and behavior analysis. The machine learning models, trained on extensive datasets, are optimized for edge deployment while maintaining high accuracy in various lighting conditions.
 
 4. **Application Layer**
    - Mobile application with intuitive UI/UX
@@ -183,7 +183,7 @@ The SHSS project is currently in active development, with several significant te
    - Development of adaptive threshold systems
    - Creation of custom computer vision models
 
-   The detection system is being built on OpenCV and computer vision algorithms (Bradski & Kaehler, 2023), with initial testing showing promising results in various lighting conditions. Current development focuses on improving the accuracy of facial recognition in low-light situations, with preliminary tests achieving 85% accuracy. The adaptive threshold system automatically adjusts to environmental changes, though fine-tuning is ongoing to reduce false positives. Our team is actively collecting and annotating data to train custom models specifically designed for home security scenarios.
+   The detection system is being built on OpenCV and computer vision algorithms (OpenCV, 2024), with initial testing showing promising results in various lighting conditions. Current development focuses on improving the accuracy of facial recognition in low-light situations, with preliminary tests achieving fair accuracy. The adaptive threshold system automatically adjusts to environmental changes, though fine-tuning is ongoing to reduce false positives. Our team is actively collecting and annotating data to train custom models specifically designed for home security scenarios.
 
 2. **Edge Computing Optimization**
    - Efficient resource allocation algorithms
@@ -199,7 +199,7 @@ The SHSS project is currently in active development, with several significant te
    - Scalable processing architecture
    - Advanced security implementations
 
-   The cloud infrastructure currently handles basic data synchronization, with Firebase serving as our primary backend (Moroney, 2023). We're actively developing more sophisticated data management algorithms to optimize storage costs while maintaining quick access to critical footage. The security system undergoes regular penetration testing, with recent updates focusing on implementing end-to-end encryption for all data transfers. Current efforts are directed towards improving the scalability of our cloud processing capabilities.
+   The cloud infrastructure currently handles basic data synchronization, with Firebase serving as our primary backend (Firebase, 2024). We're actively developing more sophisticated data management algorithms to optimize storage costs while maintaining quick access to critical footage. The security system undergoes regular penetration testing, with recent updates focusing on implementing end-to-end encryption for all data transfers. Current efforts are directed towards improving the scalability of our cloud processing capabilities.
 
 4. **User Experience and Interface**
    - Intuitive mobile application design
@@ -207,7 +207,7 @@ The SHSS project is currently in active development, with several significant te
    - Customizable alert preferences
    - Comprehensive monitoring capabilities
 
-   The mobile application's beta version has received positive user feedback, particularly regarding its intuitive navigation and quick response times. We're currently focusing on optimizing the real-time video streaming experience, with recent improvements reducing buffering time by 40%. The alert system successfully prioritizes notifications based on threat levels, though we're developing more sophisticated algorithms to reduce false alarms. User testing continues to guide our interface refinements, with accessibility features being a key focus for upcoming updates.
+   The mobile application is still in development, but the beta version has shown promising results, particularly regarding its intuitive navigation and quick response times. We're currently focusing on optimizing the real-time video streaming experience, with recent improvements reducing buffering time. The alert system successfully prioritizes notifications based on threat levels. We're developing more sophisticated algorithms to reduce false alarms since the system is strugling in this area. User testing continues to guide our interface refinements, with accessibility features being a key focus for upcoming updates.
 
 #### Network Communication
 ![Network Communication](figures/network-communication.dio.png)
@@ -241,19 +241,14 @@ The modular nature of our Level 4 IoT architecture enables several advanced enha
 
 ### References
 
-Bradski, G., & Kaehler, A. (2023). Learning OpenCV: Computer vision with OpenCV library (4th ed.). O'Reilly Media.
+Firebase. (2024). Firebase documentation: Security and authentication. Google Developers. https://firebase.google.com/docs/database/security
 
-Firebase. (2023). Firebase documentation: Security and authentication. Google Developers. https://firebase.google.com/docs/security
+Firebase. (2024). Firebase fundamentals: Build modern web and mobile applications. Apress. https://firebase.google.com/docs/web/setup
 
-Institute of Electrical and Electronics Engineers. (2023). IEEE standard for IoT security (IEEE Std 1547-2023). IEEE Standards Association. https://standards.ieee.org/standard/1547-2023.html
+Humayun, M., Tariq, N., Alfayad, M., Zakwan, M., Alwakid, G., & Assiri, M. (2024). Securing the Internet of Things in Artificial Intelligence Era: A Comprehensive Survey. IEEE Access. Advance online publication.
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10433502
 
-Moroney, L. (2023). Firebase fundamentals: Build modern web and mobile applications. Apress. https://doi.org/10.1007/978-1-4842-8876-5
-
-Rosebrock, A. (2023). Deep learning for computer vision with Python. PyImageSearch. https://pyimagesearch.com/deep-learning-computer-vision-python-book
-
-Szeliski, R. (2023). Computer vision: Algorithms and applications (2nd ed.). Springer. https://doi.org/10.1007/978-1-84882-935-0
-
-Wang, K., & Wang, Y. (2023). IoT security: Advanced threats and countermeasures. Journal of Network and Computer Applications, 198, 103294. https://doi.org/10.1016/j.jnca.2023.103294
+OpenCV. (2024). OpenCV documentation: Computer vision with OpenCV library (4th ed.). https://docs.opencv.org/4.10.0/
 
 ### Gantt Chart
 ![Gantt Chart](figures/gantt-chart.dio.png)
