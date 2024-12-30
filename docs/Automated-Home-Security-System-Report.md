@@ -132,14 +132,14 @@ The system's architecture is designed with future expansion in mind. The modular
 The SHSS implements a sophisticated multi-tier architecture that aligns with Level 4 IoT requirements (Wang & Wang, 2023):
 
 1. **Perception Layer (Hardware)**
-   - High-resolution IP cameras with night vision capabilities
-   - NodeMCU controllers for sensor integration
+   - ESP32 cameras
+   - ESP32 microcontrollers for sensor integration
    - Raspberry Pi units serving as edge computing nodes
-   - Motion and proximity sensors for environmental monitoring
+   - Ultrasonic sensors for distance measurement
    - Audio communication modules for two-way interaction
    - Local alarm systems with variable alert levels
 
-   The Perception Layer forms the foundation of our security system, acting as the primary interface between the physical and digital worlds. The IP cameras, equipped with 1080p resolution and infrared capabilities, provide clear footage in both day and night conditions. ESP32 controllers serve as efficient intermediaries, collecting data from various sensors and transmitting it to the Raspberry Pi units. These edge computing nodes, powered by Raspberry Pi, handle initial data processing and analysis. The integration of PIR motion sensors with a range of up to 30 feet and proximity sensors ensures comprehensive environmental monitoring. Two-way audio communication is facilitated through high-fidelity microphones and speakers, while the multi-level alarm system can be configured to respond with different intensity levels based on the severity of detected threats.
+   The Perception Layer is the very first and primary layer of the system, responsible for capturing and processing video and sensor data from various sources. It includes cameras, microcontrollers, and sensors, as well as the local alarm system and audio communication modules. We use very cheap esp32 cam modules as the cameras, esp32 microcontrollers for sensor integration. We use esp32 microcontrollers, raspberry pi for edge computing and ultrasonic sensor for distance measurement. The local alarm system with variable alert levels.
 
 2. **Network Layer**
    - Secure Wi-Fi connectivity with failover mechanisms
