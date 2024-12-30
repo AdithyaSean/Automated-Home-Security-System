@@ -9,7 +9,7 @@
 This is an Automated Home Security System (SHSS) utilizing advanced Image processing and Machine Learning algorithms while using a level 4 IoT architecture, developed for minimal home security needs. This sophisticated system combines edge computing with cloud services to deliver real-time surveillance and security features. By leveraging computer vision algorithms, sensor fusion, and mobile connectivity, SHSS provides an intelligent solution that goes beyond traditional security systems. The system processes data at both edge and cloud levels, enabling quick response times for critical security events while maintaining comprehensive data analysis capabilities. This project demonstrates the practical application of IoT technologies in addressing modern home security challenges, showcasing both real-time monitoring capabilities and intelligent event detection through a user-centric design.
 
 ### Acknowledgment
-We would like to extend our gratitude to the following individuals and communities for their invaluable contributions to this project:
+We extend our deepest gratitude to the following individuals, organizations and communities for their invaluable contributions to this project
 - NIBM for their support and guidance in the development of this project as well as lecturers for their guidance and mentorship
 - opencv community for their contributions to computer vision algorithms
 - firebase community for their contributions to cloud services
