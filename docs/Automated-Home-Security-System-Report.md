@@ -1,9 +1,9 @@
 ### Team Members
 
-- COHNDSE232F-054 – T T LIYANAARACHCHI
+- COHNDSE232F-054 - T T LIYANAARACHCHI
 - COHNDSE232F-092 - E M A S B EKANAYAKA
-- COHNDSE232F-096 – P H J K NADIRANGA
-- COHNDSE232F-098 – P K V LAKSHAN
+- COHNDSE232F-096 - P H J K NADIRANGA
+- COHNDSE232F-098 - P K V LAKSHAN
 
 ### Abstract
 This is an Automated Home Security System (SHSS) utilizing advanced Image processing and Machine Learning algorithms while using a level 4 IoT architecture, developed for minimal home security needs. This sophisticated system combines edge computing with cloud services to deliver real-time surveillance and security features. By leveraging computer vision algorithms, sensor fusion, and mobile connectivity, SHSS provides an intelligent solution that goes beyond traditional security systems. The system processes data at both edge and cloud levels, enabling quick response times for critical security events while maintaining comprehensive data analysis capabilities. This project demonstrates the practical application of IoT technologies in addressing modern home security challenges, showcasing both real-time monitoring capabilities and intelligent event detection through a user-centric design.
