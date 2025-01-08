@@ -2,6 +2,7 @@
 .vscode/
 *.DS_Store
 build
+firebase
 
 sdkconfig
 sdkconfig.old
