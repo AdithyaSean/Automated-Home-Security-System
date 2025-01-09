@@ -1,3 +1,9 @@
 [submodule "Smart-Security-Android"]
 	path = Smart-Security-Android
 	url = https://github.com/AdithyaSean/Smart-Security-Android
+[submodule "smart-security-camera"]
+	path = smart-security-camera
+	url = https://github.com/AdithyaSean/smart-security-camera
+[submodule "smart-security-server"]
+	path = smart-security-server
+	url = https://github.com/AdithyaSean/smart-security-server
