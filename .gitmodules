@@ -7,3 +7,6 @@
 [submodule "smart-security-server"]
 	path = smart-security-server
 	url = https://github.com/AdithyaSean/smart-security-server
+[submodule "smart-security-sonar"]
+	path = smart-security-sonar
+	url = https://github.com/AdithyaSean/smart-security-sonar
